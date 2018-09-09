@@ -23,6 +23,8 @@ def solution(lines):
         for log in logs:
             if not (log[1] < t or t + one_second - one_millisecond < log[0]):
                 cnt += 1
+            if t + one_second - one_millisecond < log[0]:
+                break
         answer = max(answer, cnt)
 
     return answer
