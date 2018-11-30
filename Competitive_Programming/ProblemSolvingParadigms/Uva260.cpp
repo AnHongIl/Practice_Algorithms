@@ -1,3 +1,12 @@
+/*
+Cautions
+1. Can I improve the representation of the neighbors?
+2. When the state information of the graph, carefully think over the order of control flow.
+  - First, check an invalid range of an index.
+  - Second, consider possible states('B': Unvisited black, 'W': White irrelevent to visit, 0: Visited black)
+  - Finally, keep the exception handling of the range, state, return value in mind
+ */
+
 #include <iostream>
 #include <vector>
 
