@@ -1,3 +1,7 @@
+/*
+Cautions
+1. Abs function doesn't work with size_t type.
+ */
 /**
  * Definition for singly-linked list.
  * struct ListNode {
